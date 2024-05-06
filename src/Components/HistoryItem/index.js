@@ -8,9 +8,10 @@ class HistoryItem extends Component {
   }
 
   render() {
-    const {timeAccessed, title, domainUrl, logoUrl} = this.props
+    const {timeAccessed, logoUrl, title, domainUrl} = this.props
     return (
       <li className="li">
+        <img src={logoUrl} alt="domain logo" className="domain-logo" />
         <div className="list">
           <p>{timeAccessed}</p>
         </div>

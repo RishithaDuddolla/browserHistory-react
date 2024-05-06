@@ -16,3 +16,8 @@
 .delete-button img {
   width: 20px;
 }
+.domain-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
