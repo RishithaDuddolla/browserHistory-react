@@ -3,7 +3,7 @@ import HistoryItem from '../HistoryItem'
 import './index.css'
 
 class SearchHistory extends Component {
-  state = {searchedFor: '', initialHistoryList: this.prop.initialHistoryList}
+  state = {searchedFor: '', initialHistoryList: this.props.initialHistoryList}
 
   onSearched = event => {
     this.setState({searchedFor: event.target.value})
