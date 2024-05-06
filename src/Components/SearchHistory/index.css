@@ -1,0 +1,42 @@
+.History-page {
+  background-color: white;
+  height: 100vh;
+  margin: 0px;
+}
+.hearder {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.logo-css {
+  height: 40px;
+  border: 1px white;
+  display: flex;
+  justify-content: flex-start;
+}
+.ul {
+  list-style: none;
+  background-color: white;
+  box-shadow: 1px 1px 3px #64748b;
+}
+.searchbar {
+  background-color: #2850a7;
+  border: solid 1px #ececec;
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+}
+.searchBar-css {
+  background-color: transparent;
+  border: 0px;
+  width: 400px;
+  padding: 4px;
+  color: white;
+}
+.searchIcon-css {
+  border-right: solid 1px #ececec;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
